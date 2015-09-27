@@ -9,10 +9,10 @@ keywords: OpenWrt, Cross Compile
 
 0. edit makefile
   depend on your target system, you should set these variables:
-  0. STAGING_DIR
-  0. PATH
-  0. CC
-    you will find a binary name in $(TOOLCHAIN)/bin. If your target board is Raspberry Pi(or Pi2), It will be *"arm-openwrt-linux-gcc"*
+  - STAGING_DIR
+  - PATH
+  - CC
+    you will find a binary name in $(TOOLCHAIN)/bin. If your target board is Raspberry Pi or Pi2, It will be *"arm-openwrt-linux-gcc"*
 
   You will get more detail information at <http://wiki.openwrt.org/doc/devel/crosscompile>
 
